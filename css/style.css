@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: white;
-    font: arial, verdana;
+    font-family: arial, verdana;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -33,7 +33,6 @@ div{
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    min-height: 125px;
 }
 .introduction{
     border-radius: 15px;
@@ -46,6 +45,8 @@ div{
     margin-left: 50px;
     border-bottom-width: 2px;
     border-left-width: 5px;
+    border-right-width: 0px;
+    border-top-width: 0px;
 }
 .blue{
     background-color: blue;
@@ -53,6 +54,8 @@ div{
     margin-right: 50px;
     border-right-width: 5px;
     border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
 }
 .blue h2{
     color: #c4c4c4;
@@ -66,16 +69,20 @@ div{
     margin-left: 50px;
     border-bottom-width: 2px;
     border-left-width: 5px;
+    border-right-width: 0px;
+    border-top-width: 0px;
 }
 .yellow p{
     color: #707070;
 }
 .green{
-    background-color: #00EB00;
+    background-color: #00d800;
     text-align: left;
     margin-right: 50px;
     border-right-width: 5px;
     border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
 }
 footer{
     background: rgb(0,0,0);
